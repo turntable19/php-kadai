@@ -21,7 +21,7 @@ foreach($fruits as $fruits){
 
 $end = 100;
 
-for ($i = 1; $i < 100; $i++) {
+for ($i = 1; $i <= 100; $i++) {
     // 5で割り切れたら{}内を実行
     if ($i % 5 == 0) {
         echo $i;
